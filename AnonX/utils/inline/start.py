@@ -52,5 +52,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="✨ sᴏᴜʀᴄᴇ ✨", url=config.UPSTREAM_REPO
             )
         ],
+        [
+            InlineKeyboardButton(
+               text="➡️ CHANNEL ➡️", url=config.SUPPORT_CHANNEL
+                
+            ),
+        ],
      ]
     return buttons
+     
